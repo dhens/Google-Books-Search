@@ -1,9 +1,26 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: inline-block;
+}
+
+button, a {
+    border-radius: 12px;
+    border-color: none;
+}
+
 header {
     padding: 30px 0;
-    background: #e40006;
-    color: black;
+    color: purple;
     text-align: center;
     width: 100%;
+}
+
+input, form {
+    background-color: #3CBC8D;
+}
+
+#headerText {
+    font-family: 'Courier New', Courier, monospace;
 }
 
 #header_image {

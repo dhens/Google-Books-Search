@@ -9,7 +9,6 @@ import "./style.css"
 class BookSearch extends Component {
     constructor(props){
         super(props);
-        //creating state as an empty array, and an updating searchField//
         this.state = {
             books: [],
             searchField: ""
@@ -28,7 +27,6 @@ class BookSearch extends Component {
     }
 
     handleSearch = (event) => {
-        //set state when we type into the input field//
         this.setState({ searchField: event.target.value})
         console.log(event.target.value)
     }
