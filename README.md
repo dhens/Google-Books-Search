@@ -1,21 +1,22 @@
 # Google Books Search
 
-## About This Application
+Build a book search app using React.
 
-This react application is a simple Google Books search app.  
-Although it does not have the required functionality for the assingnment, I enjoyed making this anyways! You should probably search "Jurassic Park" as your first book.
+Production page: https://radiant-forest-96357.herokuapp.com/
 
-<img src="./client/src/assets/bookSearchScreenShot.jpg" ></img>
+![workoutPage](Capture.PNG)
 
+## This repo contains:
+* This README
+* A Full-Stack Web app to track your workouts and the time it takes to do it, how many reps, what distance, etc.
+* A mongoose schema for the database
 
-## Technologies Used 
+## Known Issues / Bugs
+* The total workout duration sometimes shows undefined, other times it shows the time correctly. Needs further investigation.
 
-* Superagent
-* Google Books API
-* React
-* Express
-* Bootstrap
+## What I Learned:
+* I do not like using the MongoJS library or MongoJS. The layout of NoSQL servers isn't intutive to me and doesn't come as naturaally as MySQL did.
+* I need much more work before I feel comfortable using MongoJS as a primary database solution.
 
-## Deployed
-
-You can check this app out at https://salty-refuge-00824.herokuapp.com/
+## Conclusion:
+* A tough challenge
