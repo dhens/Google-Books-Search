@@ -1,0 +1,47 @@
+.card {
+    margin: 20px;
+}
+
+.card-img-top {
+    min-height: 450px;
+}
+
+.card-body{
+    /* border: #ffea02 1px solid; */
+}
+
+.card-title {
+    min-height: 72px;
+    margin-top: .75rem;
+}
+.desc{
+    overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 7;
+  -webkit-box-orient: vertical;
+  font-weight: 700;
+}
+
+a {
+    color: red;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+a:hover{
+    color: #ffea02;
+}
+
+.list-group {
+    font-weight: 900;
+    /* border: #ffea02 solid 1px; */
+}
+
+.btn-info {
+    color: #ffea02;
+    border-color: red;
+}
+
+.list-group-item {
+    /* border: 1px solid #ffea02; */
+}
