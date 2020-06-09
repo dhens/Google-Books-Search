@@ -2,21 +2,19 @@
 
 Build a book search app using React.
 
-Production page: https://radiant-forest-96357.herokuapp.com/
+Production page: https://frozen-sierra-44464.herokuapp.com/
 
-![workoutPage](Capture.PNG)
+![booksPage](Capture.PNG)
 
 ## This repo contains:
 * This README
-* A Full-Stack Web app to track your workouts and the time it takes to do it, how many reps, what distance, etc.
-* A mongoose schema for the database
+* A Full-Stack Web app to search for books 
 
 ## Known Issues / Bugs
-* The total workout duration sometimes shows undefined, other times it shows the time correctly. Needs further investigation.
+* None currently.
 
 ## What I Learned:
-* I do not like using the MongoJS library or MongoJS. The layout of NoSQL servers isn't intutive to me and doesn't come as naturaally as MySQL did.
-* I need much more work before I feel comfortable using MongoJS as a primary database solution.
+* Using React is tough when starting up a project. As the project scales, you start to see the benefits of not having to reuse code while nurturing forward-thinking concepts during the developent process.
 
 ## Conclusion:
-* A tough challenge
+* The styling could definitely use some work.
